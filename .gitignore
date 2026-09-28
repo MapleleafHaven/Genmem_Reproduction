@@ -1,0 +1,34 @@
+# Python 虚拟环境
+.venv/
+
+# PyCharm 本地配置
+.idea/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 本地参考项目
+reference/
+
+# 环境变量和密钥
+.env
+.env.*
+
+# 训练输出
+.cache/
+outputs/
+checkpoints/
+logs/
+wandb/
+*.log
+
+# 模型权重
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# macOS
+.DS_Store
